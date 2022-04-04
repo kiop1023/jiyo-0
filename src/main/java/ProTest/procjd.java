@@ -1,14 +1,13 @@
-package java;
+package ProTest;
 
 import java.util.Scanner;
+
 public class procjd {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
 
-
         int T = in.nextInt();
-
         while (T-- > 0) {
 
             int x1 = in.nextInt();
@@ -23,6 +22,7 @@ public class procjd {
         }
 
     }
+
     public static int tangent_point(int x1, int y1, int r1, int x2, int y2, int r2) {
 
         int distance_p = (int)(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
