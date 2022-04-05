@@ -10,9 +10,9 @@ public class MySocketClient {
             Socket socket = new Socket("192.168.0.72", 1534); // 소켓 서버에 접속
             System.out.println("socket 서버에 접속 성공!");
 
-            // OutputStream - 클라이언트에서 Server로 메세지 발송
+            // OutputStream - 클라이언트에서 서버로 메세지 발송
             OutputStream out = socket.getOutputStream();
-            // socket의 OutputStream 정보를 OutputStream out에 넣은 뒤
+            // 소켓의 OutputStream 정보를 OutputStream out에 넣은 뒤
             PrintWriter writer = new PrintWriter(out, true);
             // PrintWriter에 위 OutputStream을 담아 사용
 
