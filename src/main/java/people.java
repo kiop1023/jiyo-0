@@ -11,7 +11,6 @@ public class people  {
 
         public static void main(String[] args) throws IOException {
 
-            System.out.println(2022+"years"+3+"month"+30+"day\n"+"yesterday");
 
             // TODO Auto-generated method stub
             //variable
@@ -40,17 +39,17 @@ public class people  {
 
             System.out.println("------------------------------");
 
-            System.out.println(" name \t age \t height  weigt");
+            System.out.println("name\tage\t  height  weigt");
 
             System.out.println("------------------------------");
 
-            System.out.println(name +"\t"+ age + "\t"+height+"\t"+weigt);
+            System.out.println(name+"\t\t"+age+"\t\t"+height+"\t\t"+weigt);
 
 
 
             String date;
 
-            date = name+"\t"+ age+"\t"+ height+"\t"+weigt;
+            date = name+"\t\t"+ age+"\t\t"+ height+"\t\t"+weigt;
 
             System.out.println(date);
 
