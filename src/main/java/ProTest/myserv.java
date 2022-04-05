@@ -11,7 +11,7 @@ public class myserv {
 
             try {
                 Socket socket = new Socket("192.168.0.72", 1234); // 소켓 서버에 접속
-                System.out.println("socket 서버에 접속 성공!");
+                System.out.println("서버에 접속 성공");
             } catch (IOException e) {
                 // TODO Auto-generated catch block
                 e.printStackTrace();
